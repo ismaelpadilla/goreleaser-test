@@ -12,12 +12,19 @@ builds:
       - windows
       - darwin
 archives:
-  - replacements:
-      darwin: Darwin
+  -
+    replacements:
+      darwin: macOS
       linux: Linux
       windows: Windows
       386: i386
       amd64: x86_64
+    format_overrides:
+      - goos: windows
+        format: zip
+    files:
+      - LICENSE.txt
+
 checksum:
   name_template: 'checksums.txt'
 snapshot:
