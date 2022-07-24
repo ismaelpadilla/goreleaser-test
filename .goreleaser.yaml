@@ -64,7 +64,7 @@ aurs:
     # The maintainers of the package.
     # Defaults to empty.
     maintainers:
-      - 'Ismael Padilla>'
+      - 'Ismael Padilla <padillaismael92@gmail.com>'
 
     # The contributors of the package.
     # Defaults to empty.
@@ -83,7 +83,7 @@ aurs:
 
     # The AUR Git URL for this package.
     # Defaults to empty.
-    # git_url: 'ssh://aur@aur.archlinux.org/mypackage-bin.git'
+    git_url: 'ssh://aur@aur.archlinux.org/goreleaser-test-bin.git'
 
     # Setting this will prevent goreleaser to actually try to commit the updated
     # formula - instead, the formula file will be stored on the dist folder only,
@@ -139,8 +139,8 @@ aurs:
     # Git author used to commit to the repository.
     # Defaults are shown below.
     commit_author:
-      name: goreleaserbot
-      email: bot@goreleaser.com
+      name: Ismael Padilla
+      email: padillaismael92@gmail.com
 
     # Commit message template.
     # Defaults to `Update to {{ .Tag }}`.
@@ -161,4 +161,4 @@ aurs:
     # (github, gitlab or gitea).
     #
     # Default depends on the client.
-    url_template: "http://github.com/ismaelpadilla/goreleaser-test/releases/tag/{{ .Tag }}/"
+    # url_template: "http://github.com/ismaelpadilla/goreleaser-test/releases/tag/{{ .Tag }}/"
