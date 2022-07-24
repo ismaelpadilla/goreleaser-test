@@ -38,7 +38,7 @@ changelog:
 
 brews:
   - tap:
-      owner: ismael
+      owner: ismaelpadilla
       name: homebrew-tap
       # token: "{{ .Env.HOMEBREW_TAP_GITHUB_TOKEN }}"
     commit_msg_template: "{{ .ProjectName }}: Update formula to {{ .Tag }}"
