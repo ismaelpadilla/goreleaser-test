@@ -37,7 +37,7 @@ changelog:
       - '^test:'
 
 aurs:
-  -
+  - name: goreleaser-test
     # The package name.
     #
     # Defaults to the Project Name with a -bin suffix.
@@ -45,7 +45,6 @@ aurs:
     # Note that since this integration does not create a PKGBUILD to build from
     # source, per Arch's guidelines.
     # That said, GoReleaser will enforce a `-bin` suffix if its not present.
-    name: goreleaser-test
 
     # Artifact IDs to filter for.
     #
